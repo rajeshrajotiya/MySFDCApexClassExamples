@@ -4,7 +4,7 @@ public class SampleClass {
 	private String middleName;
 	
 	public String getName(){
-		return firstName+' '+(middleName==null)?'':(middleName+' ')+lastName;
+		return firstName+' '+lastName;
 	}
 
 }
